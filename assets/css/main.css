@@ -813,7 +813,14 @@ section,
   margin-right: 0;
 }
 
+  .mobile-only {
+    display: none;
+  }
+
 @media (max-width: 575px) {
+  .mobile-only {
+    display: block;
+  }
   .portfolio .portfolio-filters li {
     font-size: 14px;
     margin: 0 5px;
