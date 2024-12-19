@@ -1091,6 +1091,13 @@ section,
   color: var(--contrast-color);
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+
 .contact .php-email-form {
   background-color: var(--surface-color);
   height: 100%;
